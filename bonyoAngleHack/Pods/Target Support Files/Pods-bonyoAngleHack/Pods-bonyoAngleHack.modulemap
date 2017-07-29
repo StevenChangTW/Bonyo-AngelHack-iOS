@@ -1,0 +1,6 @@
+framework module Pods_bonyoAngleHack {
+  umbrella header "Pods-bonyoAngleHack-umbrella.h"
+
+  export *
+  module * { export * }
+}

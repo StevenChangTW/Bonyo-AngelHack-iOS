@@ -15,6 +15,9 @@
 		044100631F2C491A00D3806D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 044100611F2C491A00D3806D /* LaunchScreen.storyboard */; };
 		0441006E1F2C491F00D3806D /* bonyoAngleHackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0441006D1F2C491F00D3806D /* bonyoAngleHackTests.swift */; };
 		044100791F2C491F00D3806D /* bonyoAngleHackUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044100781F2C491F00D3806D /* bonyoAngleHackUITests.swift */; };
+		49C9025E2A6DA58C9ECA3BFE /* Pods_bonyoAngleHackTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D22696CC91C2593F08F6101 /* Pods_bonyoAngleHackTests.framework */; };
+		CBEE0799A71444A522A317C0 /* Pods_bonyoAngleHackUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01FB81123B593512CFAE693B /* Pods_bonyoAngleHackUITests.framework */; };
+		F9FCC7981E741F5CBA0CD339 /* Pods_bonyoAngleHack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1BC88784809EF1E49C90030 /* Pods_bonyoAngleHack.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01FB81123B593512CFAE693B /* Pods_bonyoAngleHackUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_bonyoAngleHackUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		044100521F2C491800D3806D /* bonyoAngleHack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bonyoAngleHack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		044100551F2C491900D3806D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		044100571F2C491900D3806D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +53,14 @@
 		044100741F2C491F00D3806D /* bonyoAngleHackUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bonyoAngleHackUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		044100781F2C491F00D3806D /* bonyoAngleHackUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bonyoAngleHackUITests.swift; sourceTree = "<group>"; };
 		0441007A1F2C491F00D3806D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BDC1F14CCAF866CBE94EF5D /* Pods-bonyoAngleHackTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bonyoAngleHackTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-bonyoAngleHackTests/Pods-bonyoAngleHackTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3D22696CC91C2593F08F6101 /* Pods_bonyoAngleHackTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_bonyoAngleHackTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AE46C502D210B27A3B9B679 /* Pods-bonyoAngleHack.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bonyoAngleHack.release.xcconfig"; path = "Pods/Target Support Files/Pods-bonyoAngleHack/Pods-bonyoAngleHack.release.xcconfig"; sourceTree = "<group>"; };
+		91042124D89BE628697AE7A5 /* Pods-bonyoAngleHackUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bonyoAngleHackUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-bonyoAngleHackUITests/Pods-bonyoAngleHackUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B1BC88784809EF1E49C90030 /* Pods_bonyoAngleHack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_bonyoAngleHack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B80ABE00D3C48C4647667729 /* Pods-bonyoAngleHackUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bonyoAngleHackUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-bonyoAngleHackUITests/Pods-bonyoAngleHackUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D242EECC184E7C375C7C1693 /* Pods-bonyoAngleHack.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bonyoAngleHack.debug.xcconfig"; path = "Pods/Target Support Files/Pods-bonyoAngleHack/Pods-bonyoAngleHack.debug.xcconfig"; sourceTree = "<group>"; };
+		E810EC798AEB8AE2559D0B07 /* Pods-bonyoAngleHackTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bonyoAngleHackTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-bonyoAngleHackTests/Pods-bonyoAngleHackTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9FCC7981E741F5CBA0CD339 /* Pods_bonyoAngleHack.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49C9025E2A6DA58C9ECA3BFE /* Pods_bonyoAngleHackTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBEE0799A71444A522A317C0 /* Pods_bonyoAngleHackUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +98,8 @@
 				0441006C1F2C491F00D3806D /* bonyoAngleHackTests */,
 				044100771F2C491F00D3806D /* bonyoAngleHackUITests */,
 				044100531F2C491800D3806D /* Products */,
+				A0064F6A6050DF90B3CFE1A4 /* Pods */,
+				687008D34BB342033640E1CE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +145,29 @@
 			path = bonyoAngleHackUITests;
 			sourceTree = "<group>";
 		};
+		687008D34BB342033640E1CE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B1BC88784809EF1E49C90030 /* Pods_bonyoAngleHack.framework */,
+				3D22696CC91C2593F08F6101 /* Pods_bonyoAngleHackTests.framework */,
+				01FB81123B593512CFAE693B /* Pods_bonyoAngleHackUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A0064F6A6050DF90B3CFE1A4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D242EECC184E7C375C7C1693 /* Pods-bonyoAngleHack.debug.xcconfig */,
+				4AE46C502D210B27A3B9B679 /* Pods-bonyoAngleHack.release.xcconfig */,
+				2BDC1F14CCAF866CBE94EF5D /* Pods-bonyoAngleHackTests.debug.xcconfig */,
+				E810EC798AEB8AE2559D0B07 /* Pods-bonyoAngleHackTests.release.xcconfig */,
+				B80ABE00D3C48C4647667729 /* Pods-bonyoAngleHackUITests.debug.xcconfig */,
+				91042124D89BE628697AE7A5 /* Pods-bonyoAngleHackUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +175,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0441007D1F2C491F00D3806D /* Build configuration list for PBXNativeTarget "bonyoAngleHack" */;
 			buildPhases = (
+				A141379EC560F2633166B015 /* [CP] Check Pods Manifest.lock */,
 				0441004E1F2C491800D3806D /* Sources */,
 				0441004F1F2C491800D3806D /* Frameworks */,
 				044100501F2C491800D3806D /* Resources */,
+				9FA88AE41C31CF054F794630 /* [CP] Embed Pods Frameworks */,
+				DAB6CFA868B5BFF620FF62C9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +195,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 044100801F2C491F00D3806D /* Build configuration list for PBXNativeTarget "bonyoAngleHackTests" */;
 			buildPhases = (
+				C1E2B144D8AFA8C8DAB2DD9A /* [CP] Check Pods Manifest.lock */,
 				044100651F2C491F00D3806D /* Sources */,
 				044100661F2C491F00D3806D /* Frameworks */,
 				044100671F2C491F00D3806D /* Resources */,
+				977F14B6DD9D64A12A0804EF /* [CP] Embed Pods Frameworks */,
+				35290981557DE04E0FA7A21F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +216,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 044100831F2C491F00D3806D /* Build configuration list for PBXNativeTarget "bonyoAngleHackUITests" */;
 			buildPhases = (
+				B3428EFD95E7E03AAD5A2D24 /* [CP] Check Pods Manifest.lock */,
 				044100701F2C491F00D3806D /* Sources */,
 				044100711F2C491F00D3806D /* Frameworks */,
 				044100721F2C491F00D3806D /* Resources */,
+				A1A2B6AD5228A2535C6FBB7D /* [CP] Embed Pods Frameworks */,
+				7D41729E6DE55BE383DD572C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -259,6 +308,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		35290981557DE04E0FA7A21F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-bonyoAngleHackTests/Pods-bonyoAngleHackTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D41729E6DE55BE383DD572C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-bonyoAngleHackUITests/Pods-bonyoAngleHackUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		977F14B6DD9D64A12A0804EF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-bonyoAngleHackTests/Pods-bonyoAngleHackTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9FA88AE41C31CF054F794630 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-bonyoAngleHack/Pods-bonyoAngleHack-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A141379EC560F2633166B015 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A1A2B6AD5228A2535C6FBB7D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-bonyoAngleHackUITests/Pods-bonyoAngleHackUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3428EFD95E7E03AAD5A2D24 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C1E2B144D8AFA8C8DAB2DD9A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DAB6CFA868B5BFF620FF62C9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-bonyoAngleHack/Pods-bonyoAngleHack-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0441004E1F2C491800D3806D /* Sources */ = {
@@ -417,6 +604,7 @@
 		};
 		0441007E1F2C491F00D3806D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D242EECC184E7C375C7C1693 /* Pods-bonyoAngleHack.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = M67FSQMGRG;
@@ -430,6 +618,7 @@
 		};
 		0441007F1F2C491F00D3806D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AE46C502D210B27A3B9B679 /* Pods-bonyoAngleHack.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = M67FSQMGRG;
@@ -443,6 +632,7 @@
 		};
 		044100811F2C491F00D3806D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BDC1F14CCAF866CBE94EF5D /* Pods-bonyoAngleHackTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -458,6 +648,7 @@
 		};
 		044100821F2C491F00D3806D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E810EC798AEB8AE2559D0B07 /* Pods-bonyoAngleHackTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -473,6 +664,7 @@
 		};
 		044100841F2C491F00D3806D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B80ABE00D3C48C4647667729 /* Pods-bonyoAngleHackUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = M67FSQMGRG;
@@ -487,6 +679,7 @@
 		};
 		044100851F2C491F00D3806D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91042124D89BE628697AE7A5 /* Pods-bonyoAngleHackUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = M67FSQMGRG;

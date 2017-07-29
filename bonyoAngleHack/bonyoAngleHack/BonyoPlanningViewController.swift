@@ -1,47 +1,40 @@
 //
-//  FormViewController.swift
+//  BonyoPlanningViewController.swift
 //  bonyoAngleHack
 //
-//  Created by mac on 2017/7/29.
+//  Created by mac on 2017/7/30.
 //  Copyright © 2017年 bonyo.AngleHack.teama. All rights reserved.
 //
 
 import UIKit
 
-class FormViewController: UIViewController {
+class BonyoPlanningViewController: UIViewController {
 
     @IBOutlet weak var webView: UIWebView!
-    
-    var urlString = "http://www.123contactform.com/form-2862848/Book-A-Bonyos-Schedule"
-    
+    var urlString = "https://8b52cf4b.ngrok.io/trip/custom/create"
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        // Do any additional setup after loading the view.
         if let url = URL(string: self.urlString) {
             let request = URLRequest(url: url)
             self.webView.loadRequest(request)
         }
         
         self.webView.delegate = self
-        
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-    @IBAction func payment(_ sender: Any) {
-        let alert = UIAlertController(title: "", message: "Payment Finished", preferredStyle: .alert)
-        self.present(alert, animated: true, completion: nil)
-        let when = DispatchTime.now() + 2
-        DispatchQueue.main.asyncAfter(deadline: when){
-            //alert.dismiss(animated: true, completion: nil)
-            self.dismiss(animated: true, completion: nil)
-            let vc = self.storyboard?.instantiateViewController(withIdentifier: "TravelerPage")
-            self.present(vc!, animated: true, completion: nil)
-        }
+    
+    @IBAction func back(_ sender: Any) {
+        
+        let vc = self.storyboard?.instantiateViewController(withIdentifier: "BonyoPage")
+        self.present(vc!, animated: true, completion: nil)
     }
+
     /*
     // MARK: - Navigation
 
@@ -54,7 +47,7 @@ class FormViewController: UIViewController {
 
 }
 
-extension FormViewController: UIWebViewDelegate {
+extension BonyoPlanningViewController: UIWebViewDelegate {
     func webViewDidStartLoad(_ webView: UIWebView) {
         UIApplication.shared.isNetworkActivityIndicatorVisible = true
     }

@@ -18,6 +18,15 @@
 		044100871F2C747700D3806D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 044100861F2C747700D3806D /* GoogleService-Info.plist */; };
 		0441008A1F2C76BB00D3806D /* FormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044100881F2C76BB00D3806D /* FormViewController.swift */; };
 		0441008B1F2C76BB00D3806D /* FormViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 044100891F2C76BB00D3806D /* FormViewController.xib */; };
+		0456BFE21F2CDC46007ED1C3 /* BonyoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0456BFE11F2CDC46007ED1C3 /* BonyoViewController.swift */; };
+		0456BFE51F2CE4A8007ED1C3 /* BonyoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0456BFE31F2CE4A8007ED1C3 /* BonyoDetailViewController.swift */; };
+		0456BFE61F2CE4A8007ED1C3 /* BonyoDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0456BFE41F2CE4A8007ED1C3 /* BonyoDetailViewController.xib */; };
+		0456BFE91F2CF4AC007ED1C3 /* TravelerPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0456BFE71F2CF4AC007ED1C3 /* TravelerPageViewController.swift */; };
+		0456BFEA1F2CF4AC007ED1C3 /* TravelerPageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0456BFE81F2CF4AC007ED1C3 /* TravelerPageViewController.xib */; };
+		0456BFEF1F2CFF35007ED1C3 /* BonyoPageTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0456BFED1F2CFF35007ED1C3 /* BonyoPageTableViewController.swift */; };
+		0456BFF01F2CFF35007ED1C3 /* BonyoPageTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0456BFEE1F2CFF35007ED1C3 /* BonyoPageTableViewController.xib */; };
+		0456BFF21F2D0D3E007ED1C3 /* PaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0456BFF11F2D0D3E007ED1C3 /* PaymentViewController.swift */; };
+		0456BFF41F2D25F0007ED1C3 /* BonyoPlanningViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0456BFF31F2D25F0007ED1C3 /* BonyoPlanningViewController.swift */; };
 		49C9025E2A6DA58C9ECA3BFE /* Pods_bonyoAngleHackTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D22696CC91C2593F08F6101 /* Pods_bonyoAngleHackTests.framework */; };
 		CBEE0799A71444A522A317C0 /* Pods_bonyoAngleHackUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01FB81123B593512CFAE693B /* Pods_bonyoAngleHackUITests.framework */; };
 		F9FCC7981E741F5CBA0CD339 /* Pods_bonyoAngleHack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1BC88784809EF1E49C90030 /* Pods_bonyoAngleHack.framework */; };
@@ -59,6 +68,15 @@
 		044100861F2C747700D3806D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		044100881F2C76BB00D3806D /* FormViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormViewController.swift; sourceTree = "<group>"; };
 		044100891F2C76BB00D3806D /* FormViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FormViewController.xib; sourceTree = "<group>"; };
+		0456BFE11F2CDC46007ED1C3 /* BonyoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BonyoViewController.swift; sourceTree = "<group>"; };
+		0456BFE31F2CE4A8007ED1C3 /* BonyoDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BonyoDetailViewController.swift; sourceTree = "<group>"; };
+		0456BFE41F2CE4A8007ED1C3 /* BonyoDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BonyoDetailViewController.xib; sourceTree = "<group>"; };
+		0456BFE71F2CF4AC007ED1C3 /* TravelerPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TravelerPageViewController.swift; sourceTree = "<group>"; };
+		0456BFE81F2CF4AC007ED1C3 /* TravelerPageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TravelerPageViewController.xib; sourceTree = "<group>"; };
+		0456BFED1F2CFF35007ED1C3 /* BonyoPageTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BonyoPageTableViewController.swift; sourceTree = "<group>"; };
+		0456BFEE1F2CFF35007ED1C3 /* BonyoPageTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BonyoPageTableViewController.xib; sourceTree = "<group>"; };
+		0456BFF11F2D0D3E007ED1C3 /* PaymentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentViewController.swift; sourceTree = "<group>"; };
+		0456BFF31F2D25F0007ED1C3 /* BonyoPlanningViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BonyoPlanningViewController.swift; sourceTree = "<group>"; };
 		2BDC1F14CCAF866CBE94EF5D /* Pods-bonyoAngleHackTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bonyoAngleHackTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-bonyoAngleHackTests/Pods-bonyoAngleHackTests.debug.xcconfig"; sourceTree = "<group>"; };
 		3D22696CC91C2593F08F6101 /* Pods_bonyoAngleHackTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_bonyoAngleHackTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AE46C502D210B27A3B9B679 /* Pods-bonyoAngleHack.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bonyoAngleHack.release.xcconfig"; path = "Pods/Target Support Files/Pods-bonyoAngleHack/Pods-bonyoAngleHack.release.xcconfig"; sourceTree = "<group>"; };
@@ -124,14 +142,23 @@
 			children = (
 				044100551F2C491900D3806D /* AppDelegate.swift */,
 				044100571F2C491900D3806D /* ViewController.swift */,
+				0456BFE71F2CF4AC007ED1C3 /* TravelerPageViewController.swift */,
+				0456BFE81F2CF4AC007ED1C3 /* TravelerPageViewController.xib */,
 				044100881F2C76BB00D3806D /* FormViewController.swift */,
+				0456BFF11F2D0D3E007ED1C3 /* PaymentViewController.swift */,
 				044100891F2C76BB00D3806D /* FormViewController.xib */,
 				044100591F2C491900D3806D /* Main.storyboard */,
+				0456BFF31F2D25F0007ED1C3 /* BonyoPlanningViewController.swift */,
+				0456BFE11F2CDC46007ED1C3 /* BonyoViewController.swift */,
+				0456BFE31F2CE4A8007ED1C3 /* BonyoDetailViewController.swift */,
+				0456BFE41F2CE4A8007ED1C3 /* BonyoDetailViewController.xib */,
 				0441005F1F2C491A00D3806D /* Assets.xcassets */,
 				044100611F2C491A00D3806D /* LaunchScreen.storyboard */,
 				044100641F2C491A00D3806D /* Info.plist */,
 				044100861F2C747700D3806D /* GoogleService-Info.plist */,
 				0441005C1F2C491900D3806D /* bonyoAngleHack.xcdatamodeld */,
+				0456BFED1F2CFF35007ED1C3 /* BonyoPageTableViewController.swift */,
+				0456BFEE1F2CFF35007ED1C3 /* BonyoPageTableViewController.xib */,
 			);
 			path = bonyoAngleHack;
 			sourceTree = "<group>";
@@ -296,9 +323,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0456BFF01F2CFF35007ED1C3 /* BonyoPageTableViewController.xib in Resources */,
 				044100631F2C491A00D3806D /* LaunchScreen.storyboard in Resources */,
+				0456BFE61F2CE4A8007ED1C3 /* BonyoDetailViewController.xib in Resources */,
 				044100871F2C747700D3806D /* GoogleService-Info.plist in Resources */,
 				044100601F2C491A00D3806D /* Assets.xcassets in Resources */,
+				0456BFEA1F2CF4AC007ED1C3 /* TravelerPageViewController.xib in Resources */,
 				0441008B1F2C76BB00D3806D /* FormViewController.xib in Resources */,
 				0441005B1F2C491900D3806D /* Main.storyboard in Resources */,
 			);
@@ -463,10 +493,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0456BFEF1F2CFF35007ED1C3 /* BonyoPageTableViewController.swift in Sources */,
+				0456BFE91F2CF4AC007ED1C3 /* TravelerPageViewController.swift in Sources */,
 				044100581F2C491900D3806D /* ViewController.swift in Sources */,
 				044100561F2C491900D3806D /* AppDelegate.swift in Sources */,
 				0441008A1F2C76BB00D3806D /* FormViewController.swift in Sources */,
 				0441005E1F2C491900D3806D /* bonyoAngleHack.xcdatamodeld in Sources */,
+				0456BFE21F2CDC46007ED1C3 /* BonyoViewController.swift in Sources */,
+				0456BFF41F2D25F0007ED1C3 /* BonyoPlanningViewController.swift in Sources */,
+				0456BFF21F2D0D3E007ED1C3 /* PaymentViewController.swift in Sources */,
+				0456BFE51F2CE4A8007ED1C3 /* BonyoDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -9,13 +9,24 @@
 import UIKit
 import Firebase
 
-
 class ViewController: UIViewController {
 
+    @IBOutlet weak var Traveler: UIButton!
+    @IBOutlet weak var BonyoButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        Traveler.layer.cornerRadius = 10
+        Traveler.layer.masksToBounds = true
+        
+        BonyoButton.layer.cornerRadius = 10
+        BonyoButton.layer.masksToBounds = true
     }
+    
+//    override func viewWillAppear(_ animated: Bool) {
+//        animated = true
+//    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

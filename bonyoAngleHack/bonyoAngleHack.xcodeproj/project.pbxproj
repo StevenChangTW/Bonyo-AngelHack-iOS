@@ -15,6 +15,9 @@
 		044100631F2C491A00D3806D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 044100611F2C491A00D3806D /* LaunchScreen.storyboard */; };
 		0441006E1F2C491F00D3806D /* bonyoAngleHackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0441006D1F2C491F00D3806D /* bonyoAngleHackTests.swift */; };
 		044100791F2C491F00D3806D /* bonyoAngleHackUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044100781F2C491F00D3806D /* bonyoAngleHackUITests.swift */; };
+		044100871F2C747700D3806D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 044100861F2C747700D3806D /* GoogleService-Info.plist */; };
+		0441008A1F2C76BB00D3806D /* FormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044100881F2C76BB00D3806D /* FormViewController.swift */; };
+		0441008B1F2C76BB00D3806D /* FormViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 044100891F2C76BB00D3806D /* FormViewController.xib */; };
 		49C9025E2A6DA58C9ECA3BFE /* Pods_bonyoAngleHackTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D22696CC91C2593F08F6101 /* Pods_bonyoAngleHackTests.framework */; };
 		CBEE0799A71444A522A317C0 /* Pods_bonyoAngleHackUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01FB81123B593512CFAE693B /* Pods_bonyoAngleHackUITests.framework */; };
 		F9FCC7981E741F5CBA0CD339 /* Pods_bonyoAngleHack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1BC88784809EF1E49C90030 /* Pods_bonyoAngleHack.framework */; };
@@ -53,6 +56,9 @@
 		044100741F2C491F00D3806D /* bonyoAngleHackUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bonyoAngleHackUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		044100781F2C491F00D3806D /* bonyoAngleHackUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bonyoAngleHackUITests.swift; sourceTree = "<group>"; };
 		0441007A1F2C491F00D3806D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		044100861F2C747700D3806D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		044100881F2C76BB00D3806D /* FormViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormViewController.swift; sourceTree = "<group>"; };
+		044100891F2C76BB00D3806D /* FormViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FormViewController.xib; sourceTree = "<group>"; };
 		2BDC1F14CCAF866CBE94EF5D /* Pods-bonyoAngleHackTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bonyoAngleHackTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-bonyoAngleHackTests/Pods-bonyoAngleHackTests.debug.xcconfig"; sourceTree = "<group>"; };
 		3D22696CC91C2593F08F6101 /* Pods_bonyoAngleHackTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_bonyoAngleHackTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AE46C502D210B27A3B9B679 /* Pods-bonyoAngleHack.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bonyoAngleHack.release.xcconfig"; path = "Pods/Target Support Files/Pods-bonyoAngleHack/Pods-bonyoAngleHack.release.xcconfig"; sourceTree = "<group>"; };
@@ -118,10 +124,13 @@
 			children = (
 				044100551F2C491900D3806D /* AppDelegate.swift */,
 				044100571F2C491900D3806D /* ViewController.swift */,
+				044100881F2C76BB00D3806D /* FormViewController.swift */,
+				044100891F2C76BB00D3806D /* FormViewController.xib */,
 				044100591F2C491900D3806D /* Main.storyboard */,
 				0441005F1F2C491A00D3806D /* Assets.xcassets */,
 				044100611F2C491A00D3806D /* LaunchScreen.storyboard */,
 				044100641F2C491A00D3806D /* Info.plist */,
+				044100861F2C747700D3806D /* GoogleService-Info.plist */,
 				0441005C1F2C491900D3806D /* bonyoAngleHack.xcdatamodeld */,
 			);
 			path = bonyoAngleHack;
@@ -288,7 +297,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				044100631F2C491A00D3806D /* LaunchScreen.storyboard in Resources */,
+				044100871F2C747700D3806D /* GoogleService-Info.plist in Resources */,
 				044100601F2C491A00D3806D /* Assets.xcassets in Resources */,
+				0441008B1F2C76BB00D3806D /* FormViewController.xib in Resources */,
 				0441005B1F2C491900D3806D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -454,6 +465,7 @@
 			files = (
 				044100581F2C491900D3806D /* ViewController.swift in Sources */,
 				044100561F2C491900D3806D /* AppDelegate.swift in Sources */,
+				0441008A1F2C76BB00D3806D /* FormViewController.swift in Sources */,
 				0441005E1F2C491900D3806D /* bonyoAngleHack.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -609,6 +621,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = M67FSQMGRG;
 				INFOPLIST_FILE = bonyoAngleHack/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bonyo.AngleHack.teama.bonyoAngleHack;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -623,6 +636,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = M67FSQMGRG;
 				INFOPLIST_FILE = bonyoAngleHack/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bonyo.AngleHack.teama.bonyoAngleHack;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -711,6 +725,7 @@
 				0441007F1F2C491F00D3806D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		044100801F2C491F00D3806D /* Build configuration list for PBXNativeTarget "bonyoAngleHackTests" */ = {
 			isa = XCConfigurationList;
@@ -719,6 +734,7 @@
 				044100821F2C491F00D3806D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		044100831F2C491F00D3806D /* Build configuration list for PBXNativeTarget "bonyoAngleHackUITests" */ = {
 			isa = XCConfigurationList;
@@ -727,6 +743,7 @@
 				044100851F2C491F00D3806D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

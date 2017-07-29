@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>235098358826-i179bpe5sa7cq9fp4kq931a0mc18ca71.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.235098358826-i179bpe5sa7cq9fp4kq931a0mc18ca71</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBkqc3N--wnUdZ_BXyoZCVQDzeiQHaPnts</string>
+	<key>GCM_SENDER_ID</key>
+	<string>235098358826</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.bonyo.AngleHack.teama.bonyoAngleHack</string>
+	<key>PROJECT_ID</key>
+	<string>bonyoangelhack-e4639</string>
+	<key>STORAGE_BUCKET</key>
+	<string>bonyoangelhack-e4639.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:235098358826:ios:8613e5d2449ce6b2</string>
+	<key>DATABASE_URL</key>
+	<string>https://bonyoangelhack-e4639.firebaseio.com</string>
+</dict>
+</plist>

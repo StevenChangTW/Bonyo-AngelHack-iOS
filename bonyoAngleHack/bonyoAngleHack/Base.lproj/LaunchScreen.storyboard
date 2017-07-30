@@ -21,13 +21,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Bonyo2" translatesAutoresizingMaskIntoConstraints="NO" id="PKP-4w-Za8">
-                                <rect key="frame" x="19.5" y="193.5" width="335" height="279"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Bonyo2" translatesAutoresizingMaskIntoConstraints="NO" id="PKP-4w-Za8">
+                                <rect key="frame" x="40" y="193.5" width="295" height="279"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstAttribute="trailing" secondItem="PKP-4w-Za8" secondAttribute="trailing" constant="40" id="96o-pB-zCR"/>
                             <constraint firstItem="PKP-4w-Za8" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Mem-Vn-1f0"/>
+                            <constraint firstItem="PKP-4w-Za8" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" constant="40" id="X1O-UE-RxO"/>
                             <constraint firstItem="PKP-4w-Za8" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="sp0-BG-zJd"/>
                         </constraints>
                     </view>

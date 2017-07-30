@@ -43,14 +43,14 @@ class BonyoPageTableViewController: UITableViewController {
     }
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         if indexPath.row == 1 {
-            myTableViewCell.backgroundView?.backgroundColor = UIColor(red: 204/255, green: 255/255, blue: 153/255, alpha: 0.7)
+            myTableViewCell.backgroundView?.backgroundColor = UIColor(red: 91/255, green: 200/255, blue: 172/255, alpha: 0.5)
         }
     }
     
     func toGreen(notification: NSNotification) {
             //myTableViewCell.backgroundView?.backgroundColor = UIColor(red: 204/255, green: 255/255, blue: 153/255, alpha: 0.7)
-            myTableViewCell.backgroundColor = UIColor(red: 204/255, green: 255/255, blue: 153/255, alpha: 0.7)
-            myLabel.text = "status: Handled"
+            myTableViewCell.backgroundColor = UIColor(red: 91/255, green: 200/255, blue: 172/255, alpha: 0.5)
+            myLabel.text = "Completed "
             print("toGreen")
     }
     
